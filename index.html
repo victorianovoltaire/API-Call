@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript API Call</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h2 >Public IP Address:</h2>
+        <form id="ip_form">
+            <input type="text" id="ip_address" placeholder="Enter a Public IP Address" required>
+            <button type="submit" id="submit_button">Submit</button>
+        </form>
+    </div>
+
+    <br>
+    <h2 class="center">Response Details:</h2>
+    <table id="response_table" border="1">
+        <tr>
+            <th>Requested IP</th>
+            <th>City</th>
+            <th>Region</th>
+            <th>Country</th>
+            <th>Locs</th>
+            <th>Org</th>
+            <th>Postal</th>
+            <th>Timezone</th>
+        </tr>
+    </table>
+</div>
+
+<script src="api.js"></script>
+</body>
+</html>
